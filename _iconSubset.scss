@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'entypo';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/entypo.eot') format('eot'),
+  url('/fonts/entypo.ttf') format('truetype'),  
+  url('/fonts/entype.woff') format('woff');  
+  //---Orginal source file paths from weloveiconfonts.com 
+  /*
+  src: url('http://weloveiconfonts.com/api/fonts/entypo/entypo.eot');
+  src: url('http://weloveiconfonts.com/api/fonts/entypo/entypo.eot?#iefix') format('eot'), 
+  url('http://weloveiconfonts.com/api/fonts/entypo/entypo.woff') format('woff'), 
+  url('http://weloveiconfonts.com/api/fonts/entypo/entypo.ttf') format('truetype'), 
+  url('http://weloveiconfonts.com/api/fonts/entypo/entypo.svg#entypo') format('svg');
+  */
+}
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.entypo-menu:before{content:"\2630"}
+.entypo-check:before{content:"\2713"}
+.entypo-cancel:before{content:"\2715"}
+.entypo-cancel-circled:before{content:"\2716"}
+.entypo-cancel-squared:before{content:"\274e"}
+.entypo-plus:before{content:"\2b"}
+.entypo-plus-circled:before{content:"\2795"}
+.entypo-plus-squared:before{content:"\229e"}
+.entypo-minus:before{content:"\2d"}
+.entypo-minus-circled:before{content:"\2796"}
+.entypo-minus-squared:before{content:"\229f"}
+
+
+
+.entypo-arrow-combo:before{content:"\e74f"}
+.entypo-down-circled:before{content:"\e758"}
+.entypo-left-circled:before{content:"\e759"}
+.entypo-right-circled:before{content:"\e75a"}
+.entypo-up-circled:before{content:"\e75b"}
+.entypo-down-open:before{content:"\e75c"}
+.entypo-left-open:before{content:"\e75d"}
+.entypo-right-open:before{content:"\e75e"}
+.entypo-up-open:before{content:"\e75f"}
+.entypo-down-open-mini:before{content:"\e760"}
+.entypo-left-open-mini:before{content:"\e761"}
+.entypo-right-open-mini:before{content:"\e762"}
+.entypo-up-open-mini:before{content:"\e763"}
+.entypo-down-open-big:before{content:"\e764"}
+.entypo-left-open-big:before{content:"\e765"}
+.entypo-right-open-big:before{content:"\e766"}
+.entypo-up-open-big:before{content:"\e767"}
+.entypo-down:before{content:"\2b07"}
+.entypo-left:before{content:"\2b05"}
+.entypo-right:before{content:"\27a1"}
+.entypo-up:before{content:"\2b06"}
+.entypo-down-dir:before{content:"\25be"}
+.entypo-left-dir:before{content:"\25c2"}
+.entypo-right-dir:before{content:"\25b8"}
+.entypo-up-dir:before{content:"\25b4"}
+.entypo-down-bold:before{content:"\e4b0"}
+.entypo-left-bold:before{content:"\e4ad"}
+.entypo-right-bold:before{content:"\e4ae"}
+.entypo-up-bold:before{content:"\e4af"}
+.entypo-down-thin:before{content:"\2193"}
+.entypo-left-thin:before{content:"\2190"}
+.entypo-right-thin:before{content:"\2192"}
+.entypo-up-thin:before{content:"\2191"}
