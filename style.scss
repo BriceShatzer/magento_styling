@@ -13,7 +13,6 @@ input[type=number],
 input[type=text]{
     border: rem-calc(1.25) solid $PB_grey_dark;
     @include border-radius(rem-calc(5));
-    //@include block-glowing-effect(focus,0,$PB_teal_light);
     padding-top:rem-calc(12);
     padding-bottom:rem-calc(12);
     height:rem-calc(45);
@@ -48,14 +47,10 @@ nav.ereader_header{
         line-height: rem-calc(45);
         vertical-align: middle;
         padding:0;
-        //@media screen and (max-width:rem-calc(960)){
+
         @media screen and (max-width:64rem){
             span{display:none;}
             span.icon{display:inline;}        
-/*             div.backToBookshelf{
-                padding-left:rem-calc(15);
-                padding-right:rem-calc(60);
-            }   */  
         }
         @media screen and (max-width:40rem){
             padding-left:.9375rem;
@@ -86,24 +81,15 @@ nav.ereader_header{
                 background-image: url("/bookshelf_logo_rollover.svg");
                 background-color: $PB_teal;
             }
-            //@media screen and (max-width:rem-calc(960)){
+            
             @media screen and (max-width:64rem){                
                 padding-left:rem-calc(65);
                 padding-right:rem-calc(20);
             }
             @media screen and (max-width:rem-calc(480)){
-                /* padding-left:rem-calc(45);
-                padding-right:rem-calc(2);
-                 */
-                //width:rem-calc(45);
-
                 background-size: rem-calc(45 45);
                 padding: rem-calc(45);
-/*                 padding-top:rem-calc(45);
-                padding-bottom:rem-calc(45);
-                padding-left:rem-calc(45);
-                padding-right:rem-calc(45);
- */                background-position: center center;
+                background-position: center center;
             }
 
         }
@@ -114,7 +100,6 @@ nav.ereader_header{
             color: $PB_white;
             vertical-align: middle;
             @media screen and (max-width:rem-calc(480)){
-                //margin-left:rem-calc(6);
                 display: none;
             }
         }
@@ -141,15 +126,12 @@ nav.ereader_header{
             padding-right:0;
         }
         @media screen and (max-width:40rem){
-            // padding-left:.9375rem;
-            // padding-right:.9375rem;
+
             width:58.33333%;
             float:left;
             float:right !important;
         }
         @media screen and (max-width:rem-calc(480)){
-            // padding-left:.9375rem;
-            // padding-right:.9375rem;
             width:66.66667%;
             float:left;
             padding-left:0;
