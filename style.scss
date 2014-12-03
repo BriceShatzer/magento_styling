@@ -21,6 +21,13 @@ input[type=text]{
 
 
 nav.ereader_header{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    width: 100%;
+    z-index: 50;
+
     @include box-shadow(0, rem-calc(2), 0, rgba(0, 0, 0, 0.3));
     background-color:$PB_teal_light;
     border-top:rem-calc(10) solid $PB_teal_dark;
@@ -138,6 +145,8 @@ nav.ereader_header{
             padding-right:0;
         }
 
+        form{display:inline;}
+
         .button{
             padding-left:.9375rem;
             padding-right:.9375rem;
@@ -150,6 +159,7 @@ nav.ereader_header{
         }
                 
         .pageListing{
+            display: inline;
             padding-left:.9375rem;
             padding-right:.9375rem;
             width:33.33333%;
@@ -195,13 +205,15 @@ nav.ereader_header{
 
 
 .ereader {
-    $controls-height: 10%;
+    //$controls-height: 10%;
+    $controls-height:rem-calc(100);
+    overflow: hidden;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
     position: relative;
-    padding-top: $controls-height;
+    //padding-top: $controls-height;
     .disabled {
         position: absolute;
         top: 0;
@@ -235,9 +247,12 @@ nav.ereader_header{
     }
     .viewer {
         position: absolute;
-        top: $controls-height;
+        top:0;
+        //top: $controls-height;
         width: 100%;
-        height: 100% - $controls-height;
+        //height: 100% - $controls-height;
+        height: 100%;
+        margin-top:$controls-height;
         background: $PB_grey_light;
         .crocodoc-page {
             background: $PB_white;
