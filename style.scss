@@ -70,7 +70,7 @@ nav.ereader_header{
             display:table;
             padding:rem-calc(20 10 20 55);
             margin:0 auto;  
-            background-image:url("/bookshelf_logo.svg");
+            background-image:url("bookshelf_logo.svg");
             background-position:rem-calc(-45) center; 
             background-repeat:no-repeat;
             background-origin:content-box;
@@ -78,7 +78,7 @@ nav.ereader_header{
             background-size: rem-calc(45) auto;
             height:rem-calc(45);
             &:hover{
-                background-image: url("/bookshelf_logo_rollover.svg");
+                background-image: url("bookshelf_logo_rollover.svg");
                 background-color: $PB_teal;
             }
             
